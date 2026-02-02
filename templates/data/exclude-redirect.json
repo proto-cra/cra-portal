@@ -1,5 +1,17 @@
 [
     {
+      "origin": "https://bxxthe.axshare.com/a-mao_a1a_eng.html"
+    }, 
+    {
+      "origin": "https://hmhoon.axshare.com/a-mao_a1a_eng.html"
+    }, 
+    {
+      "origin": "https://ue1ldq.axshare.com/a-mao_a1a_eng.html"
+    }, 
+    {
+      "origin": "https://yzuc6k.axshare.com/a-mao_a1a_eng.html"
+    }, 
+    {
       "origin": "https://chpjtp.axshare.com/a-mba-08_eng.html",  
       "destination": "https://3gv9z4.axshare.com/a-mba-08_eng.html"
     }, 
@@ -8,28 +20,12 @@
       "destination": "https://3gv9z4.axshare.com/a-mba-mc-1_eng.html"
     }, 
     {
-      "origin": "https://cra-design.github.io/cra-portal/crrnt/gst-hst/file-election/b-rt-sp-01_eng.html", 
-      "destination": "https://cra-design.github.io/cra-portal/crrnt/gst-hst/file-election/b-rt-sp-01_eng.html"
-    }, 
-    {
       "origin": "https://chpjtp.axshare.com/b-rt-fr-01_eng.html", 
-      "destination": "https://cra-design.github.io/cra-portal/crrnt/gst-hst/file-return/b-rt-fr-01_eng.html"
-    }, 
-    {
-      "origin": "https://hmhoon.axshare.com/a-mao_a1a_eng.html"
+      "destination": "/cra-portal/crrnt/gst-hst/file-return/b-rt-fr-01_eng.html"
     }, 
     {
       "origin": "https://chpjtp.axshare.com/a-mba-enq-02_eng.html", 
       "destination": "https://3gv9z4.axshare.com/a-mba-enq-02_eng.html" 
-    }, 
-    {
-      "origin": "https://bxxthe.axshare.com/a-mao_a1a_eng.html"
-    }, 
-    {
-      "origin": "https://yzuc6k.axshare.com/a-mao_a1a_eng.html"
-    }, 
-    {
-      "origin": "https://ue1ldq.axshare.com/a-mao_a1a_eng.html"
     }, 
     {
       "origin": "https://psi3b8.axshare.com/wel-01_eng.html", 
@@ -37,143 +33,142 @@
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/about-enquiries-service.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/about-enquiries-service.html"
+      "destination": "/cra-portal/help/about-enquiries-service.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/file-a-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/file-a-return.html"
+      "destination": "/cra-portal/help/file-a-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/answers-common-questions-goods-services-tax-harmonized-sales-tax-accounts.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/answers-common-questions-goods-services-tax-harmonized-sales-tax-accounts.html"
+      "destination": "/cra-portal/help/answers-common-questions-goods-services-tax-harmonized-sales-tax-accounts.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/file-election.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/file-election.html"
+      "destination": "/cra-portal/help/file-election.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/gst-hst-electronic-filing.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/gst-hst-electronic-filing.html"
+      "destination": "/cra-portal/help/gst-hst-electronic-filing.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/help-enquiries-service.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/help-enquiries-service.html"
+      "destination": "/cra-portal/help/help-enquiries-service.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/help-business-account.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/help-business-account.html"
+      "destination": "/cra-portal/help/help-business-account.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/file-a-gst-hst-return-rebate-election-electronically/electronic-rebate-forms.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/electronic-rebate-forms.html"
+      "destination": "/cra-portal/help/electronic-rebate-forms.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/business-account/adjust-a-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/adjust-a-return.html"
+      "destination": "/cra-portal/help/adjust-a-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/business-account/view-expected-filed-returns.html", 
-      "destination": "https://cra-design.github.io/cra-portal/help/view-expected-filed-returns.html"
+      "destination": "/cra-portal/help/view-expected-filed-returns.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/gst-hst-netfile/gst-hst-netfile-about-gst-hst-netfile.html", 
-      "destination": "https://cra-design.github.io/gst-hst-business/en/topics/gst-hst-businesses/file-return/how-file.html"
+      "destination": "/gst-hst-business/en/topics/gst-hst-businesses/file-return/how-file.html"
     }, 
-    
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/after-you-file.html"
+      "destination": "/cra-portal/t1portal/after-you-file.html"
     }, 
     {
-      "origin": "https://cra-design.github.io/content/canadasite/en/revenue-agency/services/e-services/digital-services-businesses/refile-online-t1-adjustments-efile-service-providers.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/change-return.html"
+      "origin": "/content/canadasite/en/revenue-agency/services/e-services/digital-services-businesses/refile-online-t1-adjustments-efile-service-providers.html", 
+      "destination": "/cra-portal/t1portal/change-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/change-return.html"
+      "destination": "/cra-portal/t1portal/change-return.html"
     }, 
     {
-      "origin": "https://cra-design.github.io/content/canadasite/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/change-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/change-return-services.html"
+      "origin": "/content/canadasite/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/change-return.html", 
+      "destination": "/cra-portal/t1portal/change-return-services.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/change-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/change-return-services.html"
+      "destination": "/cra-portal/t1portal/change-return-services.html"
     }, 
     {
      "origin": "https://www.canada.ca/content/canadasite/en/revenue-agency/services/e-services/digital-services-businesses/refile-online-t1-adjustments-efile-service-providers.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/change-return.html"
+      "destination": "/cra-portal/t1portal/change-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/how-file/tax-software/complete-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/complete-return.html"
+      "destination": "/cra-portal/t1portal/complete-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/how-file/tax-software/find-software.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/find-software.html"
+      "destination": "/cra-portal/t1portal/find-software.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/forms-publications.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/forms-publications.html"
+      "destination": "/cra-portal/t1portal/forms-publications.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/forms-publications/tax-packages-years/general-income-tax-benefit-package.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/general-income-tax-benefit-package.html"
+      "destination": "/cra-portal/t1portal/general-income-tax-benefit-package.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/get-ready-taxes.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/get-ready-taxes.html"
+      "destination": "/cra-portal/t1portal/get-ready-taxes.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/help-others.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/help-others.html"
+      "destination": "/cra-portal/t1portal/help-others.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/how-file.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/how-file.html"
+      "destination": "/cra-portal/t1portal/how-file.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/make-payment.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/make-payment.html"
+      "destination": "/cra-portal/t1portal/make-payment.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/noa-nor.html"
+      "destination": "/cra-portal/t1portal/noa-nor.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/payments-cra.html"
+      "destination": "/cra-portal/t1portal/payments-cra.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/personal-income-tax.html"
+      "destination": "/cra-portal/t1portal/personal-income-tax.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/refunds.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/refunds.html"
+      "destination": "/cra-portal/t1portal/refunds.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/how-file/tax-software/send-return.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/send-return.html"
+      "destination": "/cra-portal/t1portal/send-return.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/tax-slips.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/tax-slips.html"
+      "destination": "/cra-portal/t1portal/tax-slips.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/how-file/tax-software.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/tax-software.html"
+      "destination": "/cra-portal/t1portal/tax-software.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/who-should-file-tax.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/who-should-file-tax.html"
+      "destination": "/cra-portal/t1portal/who-should-file-tax.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html", 
-      "destination": "https://cra-design.github.io/cra-portal/t1portal/sign_in.html"
+      "destination": "/cra-portal/t1portal/sign_in.html"
     }, 
     {
       "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/file-a-gst-hst-return-rebate-election-electronically.html", 
-      "destination": "https://cra-design.github.io/cra-portal/service-pages/file-a-gst-hst-return-rebate-election-electronically.html"
+      "destination": "/cra-portal/service-pages/file-a-gst-hst-return-rebate-election-electronically.html"
     }
 ]
