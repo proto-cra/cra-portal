@@ -45,7 +45,7 @@ noFooterMain: true
   {% assign current_path = "" %}
   {% for p in sitePages %}
     {% assign path_parts = p.url | split: "/" %}
-    {% assign top_path = "/" | append: path_parts[1] %}
+    {% assign top_path = "" | append: path_parts[1] %}
 
     {% if top_path != current_path %}
       {% if forloop.index > 1 %}</ul></li>{% endif %}
@@ -54,7 +54,7 @@ noFooterMain: true
       {% assign current_path = top_path %}
     {% endif %}
     
-    <li><a href="{{ p.url }}">{{ p.url }}</a></li>
+    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
 
     {% if forloop.last %}</ul></li>{% endif %}
   {% endfor %}
