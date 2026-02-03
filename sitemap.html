@@ -49,7 +49,7 @@ noFooterMain: true
 
     {% if top_path != current_path %}
       {% if forloop.index > 1 %}</ul></li>{% endif %}
-      <li>{% unless top_path contains "/" %}<strong>{{ top_path }}</strong>{% endunless %}
+      <li>{% unless top_path contains "/" %}{<strong>{{ top_path }} - {{ path_parts.size }}</strong>{% endunless %}
         <ul>
       {% assign current_path = top_path %}
     {% endif %}
