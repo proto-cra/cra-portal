@@ -20,8 +20,8 @@ noFooterMain: true
         </ul>
     </div>
 </div>
-<ul>
 -->
+<ul>
 {% assign sitePages = site.pages | sort: "url" %}
 {% for p in sitePages %}
     {% include sitemapxml.html url = p.url title = p.title %}
@@ -39,4 +39,23 @@ noFooterMain: true
         </p>
     {% endif %}
 {% endfor %}
+</ul>
+
+<ul>
+  {% assign current_path = "" %}
+  {% for p in sitePages %}
+    {% assign path_parts = p.url | split: "/" %}
+    {% assign top_path = "/" | append: path_parts[1] %}
+
+    {% if top_path != current_path %}
+      {% if forloop.index > 1 %}</ul></li>{% endif %}
+      <li><strong>{{ top_path }}</strong>
+        <ul>
+      {% assign current_path = top_path %}
+    {% endif %}
+    
+    <li><a href="{{ p.url }}">{{ p.url }}</a></li>
+
+    {% if forloop.last %}</ul></li>{% endif %}
+  {% endfor %}
 </ul>
