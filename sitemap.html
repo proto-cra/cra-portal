@@ -35,10 +35,6 @@ noFooterMain: true
         {% for fp in path_arr %}
             {% assign top_path = "" | append: fp %}
             [xx {{ fp }} xx]
-            {% if top_path != current_path %}
-               * new 
-                {% assign current_path = top_path %}
-            {% endif %}
             {% if forloop.last %}
                {% include sitemapxml.html url = p.url title = p.title %}
             {% endif %}
