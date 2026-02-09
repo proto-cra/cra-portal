@@ -30,6 +30,11 @@ noFooterMain: true
     {% assign filename = fullPathArr.last %}
     {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
+    {% assign top_path = "" | append: folder_path %}
+    {% if top_path != current_path %}
+        * new 
+        {% assign current_path = top_path %}
+    {% endif %}
     {% if folder_path.size > 1 %}
         <p>[{{ folder_path }}]
         {% for fp in path_arr %}
