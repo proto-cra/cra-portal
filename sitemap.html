@@ -30,11 +30,6 @@ noFooterMain: true
     {% assign fullPathArr = p.url | split: "/" %}
     {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
-    {% if fullPathArr.size == 0 %}
-        {% assign filename = "index.html" %}
-    {% else %}
-        {% assign filename = fullPathArr.last %}
-    {% endif %}
     {% assign top_path = "" | append: folder_path %}
     {% assign isNewPath = false %}
     {% if top_path != current_path or forloop.index == 1 %}
