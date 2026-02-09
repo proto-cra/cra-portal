@@ -41,10 +41,9 @@ noFooterMain: true
     {% assign isNewPath = true %}
     {% for fp in path_arr %}
         {% if forloop.index > 1 %}
-            <p><strong>fp:</strong> [{{ fp }}]</p>
+            <p><strong>fp:</strong> [{{ fp }}][{{top_path_arr[forloop.index}}]]</p>
         {% endif %}
         {% if forloop.last %}
-            path
         {% endif %}
         {% if fp != top_path_arr[forloop.index] %}
             {% assign isNewPath = false %}
