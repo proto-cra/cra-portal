@@ -32,8 +32,10 @@ noFooterMain: true
     <p><strong>folder_path:</strong> [{{ folder_path }}]</p>
     {% if fullPathArr.last == blank %}
         {% assign filename = "index.html" %}
+        blank
     {% else %}
         {% assign filename = fullPathArr.last %}
+        not blank
     {% endif %}
     <p><strong>filename:</strong> [{{ filename }}]</p>
     {% assign top_path = "" | append: folder_path %}
@@ -42,7 +44,7 @@ noFooterMain: true
         {% assign current_path = top_path %}
     {% endif %}
     {% for fp in path_arr %}
-        {% if path_arr.size > 1 %}
+        {% if forloop.index > 1 %}
             <p><strong>fp:</strong> [{{ fp }}]</p>
         {% endif %}
         {% if forloop.last %}
