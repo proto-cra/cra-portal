@@ -35,7 +35,7 @@ noFooterMain: true
         * new 
         {% assign current_path = top_path %}
     {% endif %}
-    {% if folder_path.size > 1 %}
+    {% if folder_path.size > 0 %}
         <p>[{{ folder_path }}]
         {% for fp in path_arr %}
             ({{ fp }}) 
