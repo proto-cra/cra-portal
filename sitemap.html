@@ -41,12 +41,12 @@ noFooterMain: true
     {% assign isNewPath = true %}
     {% for fp in path_arr %}
         {% if forloop.index > 1 %}
-            <p><strong>fp:</strong> [{{ fp }}] [{{top_path_arr[forloop.index}}] [{{ folder_path }}]</p>
+            <p><strong>fp:</strong> [{{ fp }}] [{{top_path_arr[forloop.index | minus: 1]}}] [{{ folder_path }}]</p>
         {% endif %}
         {% if forloop.last %}
         {% endif %}
         ({{ forloop.index }})
-        {% if fp != top_path_arr[forloop.index] %}
+        {% if fp != top_path_arr[forloop.index | minus: 1] %}
             {% assign isNewPath = false %}
         {% endif %}
     {% endfor %}
