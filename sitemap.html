@@ -31,8 +31,8 @@ noFooterMain: true
     {% assign folder_path = path_arr | join: "/" %}
     <p><strong>folder_path:</strong> [{{ folder_path }}]</p>
     {% assign filename = fullPathArr.last %}
-    {% if filename = "" %}
-        {% assign filename = "index.html" %}
+    {% if filename == "" %}
+        {% assign filename = index.html %}
     {% endif %}
     <p><strong>filename:</strong> [{{ filename }}]</p>
     {% assign top_path = "" | append: folder_path %}
