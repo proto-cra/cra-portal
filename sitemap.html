@@ -25,7 +25,7 @@ noFooterMain: true
 {% assign sitePages = site.pages | sort: "url" %}
 {% assign current_path = "" %}
 {% for p in sitePages %}
-    <p><span class="label label-primary">site url:</span> [{{ p.url }}]</p>
+    <p><span class="label label-primary">site url</span> [{{ p.url }}]</p>
     {% assign fullPathArr = p.url | split: "/" %}
     {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
@@ -41,6 +41,9 @@ noFooterMain: true
         {% assign current_path = top_path %}
     {% endif %}
     {% for fp in path_arr %}
+        {% if path_arr.size > 1 %}
+            <p><strong>path_arr.size:</strong> [{{ path_arr.size }}]</p>
+        {% endif %}
         <p><strong>fp:</strong> [{{ fp }}]</p>
         {% if forloop.last %}
             {% include link_inc.html url = p.url title = p.title %}
