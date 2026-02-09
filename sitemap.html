@@ -24,7 +24,7 @@ noFooterMain: true
 <ul>
 {% assign sitePages = site.pages | sort: "url" %}
 {% assign current_path = "" %}
-{% assign top_path_arr = "" %}
+{% assign top_path_arr = "['']" %}
 {% for p in sitePages %}
     <p><span class="label label-primary">site url</span> [{{ p.url }}]</p>
     {% assign fullPathArr = p.url | split: "/" %}
@@ -39,11 +39,11 @@ noFooterMain: true
     {% assign isNewPath = true %}
     {% for fp in path_arr %}
         {% if forloop.index > 1 %}
-            <p><strong>fp:</strong> [{{ fp }}]</p>
+            <p><strong>fp:</strong> [{{ fp }}] [{{ path_arr.size }}] [{{ top_path_arr.size }}]</p>
         {% endif %}
         {% if forloop.last %}
         {% endif %}
-        {% if fp != top_path_arr[forloop.index0] and path_arr.size == top_path_arr.size %}
+        {% if fp != top_path_arr[forloop.index0] %}
             {% assign isNewPath = false %}
         {% endif %}
     {% endfor %}
