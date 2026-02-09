@@ -26,14 +26,14 @@ noFooterMain: true
 {% assign current_path = "" %}
 {% for p in sitePages %}
     {% assign page_url = p.url | slice: 1, p.url.size %}
-    {% assign full_path_arr = page_url | split: "/" %}
-    {% assign filename = full_path_arr.last %}
-    {% assign path_arr = full_path_arr | pop %}
+    {% assign fullPathArr = page_url | split: "/" %}
+    {% assign filename = fullPathArr.last %}
+    {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
     {% if folder_path.size > 1 %}
         <p>[{{ folder_path }}]
         {% for fp in path_arr %}
-            {{ fp }} 
+            ({{ fp }}) 
             {% if forloop.last %}
                {% include sitemapxml.html url = p.url title = p.title %}
             {% endif %}
