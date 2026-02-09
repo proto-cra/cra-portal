@@ -31,9 +31,9 @@ noFooterMain: true
     {% assign path_arr = full_path_arr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
     {% if folder_path.size > 1 %}
-        <p>
+        <p>[{{ folder_path }}]
         {% for fp in path_arr %}
-            [xx {{ fp }} xx]
+            {{ fp }} 
             {% if forloop.last %}
                {% include sitemapxml.html url = p.url title = p.title %}
             {% endif %}
