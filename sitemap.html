@@ -37,13 +37,14 @@ noFooterMain: true
     {% endif %}
     {% assign top_path = "" | append: folder_path %}
     {% assign isNewPath = false %}
+    ({{ forloop.index }})
     {% for fp in path_arr %}
         {% if forloop.index > 1 %}
             <p><strong>fp:</strong> [{{ fp }} = {{ top_path_arr[forloop.index0] }}] [current: {{ path_arr.size }}] [last: {{ top_path_arr.size }}]</p>
         {% endif %}
         {% if forloop.last %}
         {% endif %}
-        {% if fp != top_path_arr[forloop.index0] or forloop.parentloop.index == 1 %}
+        {% if path_arr.size == top_path_arr.size and fp != top_path_arr[forloop.index0] or forloop.parentloop.index == 1 %}
             {% assign isNewPath = true %}
         {% endif %}
     {% endfor %}
