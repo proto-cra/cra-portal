@@ -23,24 +23,32 @@ noFooterMain: true
 -->
 <ul>
 {% assign sitePages = site.pages | sort: "url" %}
+{% assign current_path = "" %}
 {% for p in sitePages %}
-    {% include sitemapxml.html url = p.url title = p.title %}
     {% assign page_url = p.url | slice: 1, p.url.size %}
-    {% assign folder_path = page_url | split: "/" %}
+    {% assign full_path_arr = page_url | split: "/" %}
+    {% assign filename = full_path_arr.last %}
+    {% assign path_arr = full_path_arr | pop %}
+    {% assign folder_path = path_arr | join: "/" %}
     {% if folder_path.size > 1 %}
         <p>
-        {% for fp in folder_path %}
+        {% for fp in path_arr %}
+            {% assign top_path = "" | append: fp %}
+            [{{ fp }}]
             {% if forloop.last %}
-               &nbsp;{{ fp }}
-            {% else %}
-                [{{ fp }}]
+               {% include sitemapxml.html url = p.url title = p.title %}
             {% endif %}
         {% endfor %}
         </p>
     {% endif %}
+    {% if top_path != current_path %}
+        {% assign current_path = top_path %}
+    {% endif %}
 {% endfor %}
 </ul>
+
 <hr>
+
 <ul>
 {% assign current_path = "" %}{% assign current_path_size = "" %}{% for p in sitePages %}{% assign path_parts = p.url | split: "/" %}{% assign top_path = "" | append: path_parts[1] %}{% if top_path != current_path %}{% if forloop.index > 1 and current_path_size > 2 %}</ul>
 </li>{% endif %}
