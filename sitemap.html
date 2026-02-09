@@ -26,13 +26,12 @@ noFooterMain: true
 {% assign current_path = "" %}
 {% for p in sitePages %}
     <p><strong>site url:</strong> [{{ p.url }}]</p>
-    {% assign page_url = p.url | slice: 1, p.url.size %}
-    <p><strong>page_url:</strong> [{{ page_url }}]</p>
-    {% assign fullPathArr = page_url | split: "/" %}
-    {% assign filename = fullPathArr.last %}
+    {% assign fullPathArr = p.url | split: "/" %}
     {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
     <p><strong>folder_path:</strong> [{{ folder_path }}]</p>
+    {% assign filename = fullPathArr.last %}
+    <p><strong>filename:</strong> [{{ filename }}]</p>
     {% assign top_path = "" | append: folder_path %}
     {% if top_path != current_path %}
         <p><strong>top_path:</strong> [{{ top_path }}]</p>
