@@ -35,18 +35,15 @@ noFooterMain: true
     <p><strong>folder_path:</strong> [{{ folder_path }}]</p>
     {% assign top_path = "" | append: folder_path %}
     {% if top_path != current_path %}
+        <p><strong>top_path:</strong> [{{ top_path }}]</p>
         {% assign current_path = top_path %}
     {% endif %}
-    {% if folder_path.size > 0 %}
-        <p>
-        {% for fp in path_arr %}
-            ({{ fp }}) 
-            {% if forloop.last %}
-               {% include link_inc.html url = p.url title = p.title %}
-            {% endif %}
-        {% endfor %}
-        </p>
-    {% endif %}
+    {% for fp in path_arr %}
+        <p><strong>fp:</strong> [{{ fp }}]</p>
+        {% if forloop.last %}
+            {% include link_inc.html url = p.url title = p.title %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 </ul>
 
