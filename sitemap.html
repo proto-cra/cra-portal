@@ -25,22 +25,24 @@ noFooterMain: true
 {% assign sitePages = site.pages | sort: "url" %}
 {% assign current_path = "" %}
 {% for p in sitePages %}
+    <p><strong>site url:</strong> [{{ p.url }}]</p>
     {% assign page_url = p.url | slice: 1, p.url.size %}
+    <p><strong>page_url:</strong> [{{ page_url }}]</p>
     {% assign fullPathArr = page_url | split: "/" %}
     {% assign filename = fullPathArr.last %}
     {% assign path_arr = fullPathArr | pop %}
     {% assign folder_path = path_arr | join: "/" %}
+    <p><strong>folder_path:</strong> [{{ folder_path }}]</p>
     {% assign top_path = "" | append: folder_path %}
     {% if top_path != current_path %}
-        * new 
         {% assign current_path = top_path %}
     {% endif %}
     {% if folder_path.size > 0 %}
-        <p>[{{ folder_path }}]
+        <p>
         {% for fp in path_arr %}
             ({{ fp }}) 
             {% if forloop.last %}
-               {% include sitemapxml.html url = p.url title = p.title %}
+               {% include link_inc.html url = p.url title = p.title %}
             {% endif %}
         {% endfor %}
         </p>
