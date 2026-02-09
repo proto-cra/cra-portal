@@ -43,7 +43,7 @@ noFooterMain: true
         {% endif %}
         {% if forloop.last %}
         {% endif %}
-        {% if fp != top_path_arr[forloop.index0] or forloop.parentloop.index = 1 %}
+        {% if fp != top_path_arr[forloop.index0] or forloop.parentloop.index == 1 %}
             {% assign isNewPath = true %}
         {% endif %}
     {% endfor %}
